@@ -1,0 +1,1 @@
+docker service logs --follow $(docker service ps --filter "name=engineering-bay.1" -q engineering-bay)
