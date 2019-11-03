@@ -1,1 +1,1 @@
-docker run --rm -it alpine /bin/sh
+docker run --rm -it alpine

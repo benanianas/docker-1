@@ -8,3 +8,6 @@ RUN npx create-react-app nodeapp
 WORKDIR nodeapp
 
 ENTRYPOINT npm start
+
+#docker build -t react
+#docker run -it -p 3000:3000 react

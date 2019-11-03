@@ -12,3 +12,4 @@ ONBUILD RUN rake db:seed
 
 #docker build -t ft-rails:on-build .
 #docker build -t finalrubyapp .
+#docker run -it -p 3000:3000 finalrubyapp
